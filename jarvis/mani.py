@@ -15,7 +15,7 @@ import google.generativeai as genai
 
 from tqdm import tqdm
 
-genai.configure(api_key=os.environ.get("API_KEY", "AIzaSyAHR-VibLkLg15S99FvIWjr26UjeRz9dPQ"))# Import the API key from config
+genai.configure(api_key=os.environ.get("API_KEY", "Your API Key"))# Import the API key from config
 
 
 # Initialize the text-to-speech engine
